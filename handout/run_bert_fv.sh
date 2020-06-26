@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definition of directories paths.
-export BERT_BASE_DIR=$HOME/cs585/homework/hw4/bert
+export BERT_BASE_DIR=$your_bert_directory
 export BERT_DATA_DIR=$BERT_BASE_DIR/models/uncased_L-12_H-768_A-12
 
 # Input and output Paths directories

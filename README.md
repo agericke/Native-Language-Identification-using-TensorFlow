@@ -35,17 +35,17 @@ Afterwards, we need to re-format the datafiles so that they can be passed as inp
 
 Once we have prepared the input data, now we can generate the feature vectors by running the BERT *extract_features.py* python script. Note that we made some changes to this script in order to reference correctly the data directories. Check the *handout/run_bert_fv.sh* so that it has the following directories definitions:
 
-- *__BERT_BASE_DIR__ = $HOME/cs585/homework/hw4/bert*
+- *__BERT_BASE_DIR__ = $your_bert_directory*
 - *__BERT_DATA_DIR__ = $BERT_BASE_DIR/models/uncased_L-12_H-768_A-12*
 - *__INPUT_DIR__ = $BERT_BASE_DIR/bert_input_data*
 - *__OUTPUT_DIR__ = $BERT_BASE_DIR/bert_output_data*
 
 Then we are ready to run the script. Again check the execution permissions of the bash script *handout/run_bert_fv.sh*. Run the scripts and the outputs will be saved in *bert/bert_output_data*
 
-## 4 - RUN THE HOMEWORK 4 PYTHON SCRIPT.
-The Homework 4 python script will run all the necessary code for the homework requirements. It is saved in the folder handout. First of all you need to check if you have folders *__data__* and *__images__* inside handout folder. If not, create them, they will be necessary for the hw4.py to work correctly. 
+## 4 - RUN THE PYTHON SCRIPT.
+The python script will run all the necessary code for the project requirements. It is saved in the folder handout. First of all you need to check if you have folders *__data__* and *__images__* inside handout folder. If not, create them, they will be necessary for the hw4.py to work correctly. 
 Note that we have used a Logistic Regression model for the text classification homework.
-The hw4 python script execute various step that we define here:
+The hw4 python script executes various step that we define here:
 
 0. Set-up directories.
 1. Read dataframes of all datasets (train, test and eval).
